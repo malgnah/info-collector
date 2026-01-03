@@ -8,9 +8,11 @@ print(f"Name: {first_name} {last_name}")
 print(f"Age: {age}")
 print(f"Favourite colour: {fav_color}")
 
+#additional function
 if age < 0:
     print("**You sure this is your age? 0-0")
 elif age > 116:
     print("**Congrats!! You might be the oldest person in the world!")
 
+#for the display page to stay longer
 input("\nPress Enter To Exit...")
